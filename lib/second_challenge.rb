@@ -7,10 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-  newAr = []
-groceries.each do |key1, value1|
-  newAr.push(value1)
+ groceries.values.flatten!
 end
-newAr.flatten!
+
 
 end
