@@ -11,6 +11,6 @@ def second_challenge
 groceries.each do |key1, value1|
   newAr.push(value1)
 end
-newAr
+newAr.flatten!
 
 end
