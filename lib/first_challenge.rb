@@ -13,10 +13,15 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each do |key1, value1|
+    if key1 == "Freddy Mercury"
+    value1.each do |key2, value2|
+      if key2 == favorite_icecream_flavors
+        value2.shift
+    end
+  end
+end
+contacts
 
-
-  #remember to return your newly altered contacts hash!
-  contacts
 end
 
