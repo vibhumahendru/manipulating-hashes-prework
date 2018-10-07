@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.values
-  
+  newAr = []
+groceries.each do |key1, value1|
+  newAr.push(value1)
+end
+newAr
 
 end
