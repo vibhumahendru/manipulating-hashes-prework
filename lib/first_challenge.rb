@@ -20,6 +20,7 @@ def first_challenge
         value2.shift
     end
   end
+  end
 end
 contacts
 
